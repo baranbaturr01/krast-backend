@@ -91,4 +91,7 @@ php artisan passport:install
 exit
 
 
+- Postman Collection 
+ - https://planetary-eclipse-832467.postman.co/workspace/Tsoft~0c1ed032-3f09-4090-834b-2ea7a8abe516/collection/12673821-7ae0fa3e-66af-4a64-bc39-4516b5e8ff1a?action=share&creator=12673821
+
 
