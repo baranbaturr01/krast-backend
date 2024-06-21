@@ -65,3 +65,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # krast-backend
+
+# Backend Assessment
+
+## Kurulum
+
+### Gereksinimler
+
+- Docker
+- Docker Compose
+
+### Kurulum Adımları
+
+1. Depoyu klonlayın:
+
+```bash
+git clone https://github.com/baranbaturr01/krast-backend.git
+cd backend-assessment
+
+docker-compose up --build
+
+docker-compose exec app bash
+php artisan migrate
+php artisan passport:install
+exit
+
+
+
